@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import es.ieslosmontecillos.componentes_caroantonio.CampoTextoBoton?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Label?>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ieslosmontecillos.appusotextoboton.AppUsoTextoBotonController">
+   <children>
+      <CampoTextoBoton fx:id="campoTextoBoton1"/>
+      <CampoTextoBoton fx:id="campoTextoBoton2"/>
+
+      <Label fx:id="label1" text="esto es un label de prueba"/>
+   </children>
+</VBox>
